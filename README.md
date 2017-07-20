@@ -16,11 +16,11 @@ Night vision shader's noise can be adjusted by setting noise parameter of the sh
 Currently project has vision modes working. but there is space for a lot of improvement.
 Here are some improvements:
 
-1- Currently there is no smooth transition when we switch from one vision mode to another. Smooth transition can be added
-2- Currently Thermal effect render a red like colour for showing objects. Shader can be improved by adding heat maps  and noise in shader so that custom heatmaps can be defined for meshes to give more realistic thermal effect.
-3- Currently EM vision effect render a green colour for showing objects. Shader can be improved by adding diffuse map and multiplying in with some intensities and colors to give better EM vision look in.
-4- Currently Objects cannot be seen If there is an obstacle in between. So My overriding depth testing, thermal and diffuse shader can be improved to see objects through obstacles like wall or door etc.
-5- Currently CameraVisionManager used many cameras to render vision modes. The number of cameras can be minimized with a little refactor. 
+1- Currently there is no smooth transition when we switch from one vision mode to another. Smooth transition can be added <br/>
+2- Currently Thermal effect render a red like colour for showing objects. Shader can be improved by adding heat maps  and noise in shader so that custom heatmaps can be defined for meshes to give more realistic thermal effect.<br/>
+3- Currently EM vision effect render a green colour for showing objects. Shader can be improved by adding diffuse map and multiplying in with some intensities and colors to give better EM vision look in.<br/>
+4- Currently Objects cannot be seen If there is an obstacle in between. So My overriding depth testing, thermal and diffuse shader can be improved to see objects through obstacles like wall or door etc.<br/>
+5- Currently CameraVisionManager used many cameras to render vision modes. The number of cameras can be minimized with a little refactor. <br/>
 
 
 
